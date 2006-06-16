@@ -1,0 +1,4 @@
+category: X11
+requires: cygwin
+sdesc: "Xorg Remote Start client and daemon"
+ldesc: "Xorg Remote Start client and daemon"

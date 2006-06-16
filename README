@@ -1,0 +1,78 @@
+rstart
+------------------------------------------
+Xorg Remote Start client and daemon
+
+Runtime requirements:
+  cygwin-1.5.19-4
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.7-1.7.9-1
+  binutils-20050610-1
+  cygport-0.1.0-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+  xorg-util-macros-1.0.1-1
+  xtrans-1.0.0-1
+
+Canonical website:
+  http://xorg.freedesktop.org/
+
+Canonical download:
+  http://ftp.x.org/pub/X11R7.0/src/everything/
+
+-------------------------------------------
+
+Build instructions:
+  unpack rstart-1.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./rstart-1.0.1-X.cygport all
+
+This will create:
+  /usr/src/rstart-1.0.1-X-src.tar.bz2
+  /usr/src/rstart-1.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/rstart
+  /usr/bin/rstartd
+  /usr/lib/X11/rstart/commands/@List
+  /usr/lib/X11/rstart/commands/ListContexts
+  /usr/lib/X11/rstart/commands/ListGenericCommands
+  /usr/lib/X11/rstart/commands/x
+  /usr/lib/X11/rstart/commands/x11
+  /usr/lib/X11/rstart/commands/x11r6/@List
+  /usr/lib/X11/rstart/commands/x11r6/LoadMonitor
+  /usr/lib/X11/rstart/commands/x11r6/Terminal
+  /usr/lib/X11/rstart/config
+  /usr/lib/X11/rstart/contexts/@List
+  /usr/lib/X11/rstart/contexts/default
+  /usr/lib/X11/rstart/contexts/x
+  /usr/lib/X11/rstart/contexts/x11
+  /usr/lib/X11/rstart/contexts/x11r6
+  /usr/lib/X11/rstart/rstartd.real.exe
+  /usr/share/doc/Cygwin/rstart-1.0.1.README
+  /usr/share/doc/rstart-1.0.1/COPYING
+  /usr/share/doc/rstart-1.0.1/ChangeLog
+  /usr/share/man/man1/rstart.1.gz
+  /usr/share/man/man1/rstartd.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Initial Cygwin release of modular X11R7.0.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
