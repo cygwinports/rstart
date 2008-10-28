@@ -1,6 +1,6 @@
 rstart
 ------------------------------------------
-Xorg Remote Start client and daemon
+X.Org Remote Start client and daemon
 
 Runtime requirements:
   cygwin-1.5.20-1
