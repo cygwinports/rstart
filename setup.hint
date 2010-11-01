@@ -1,4 +1,4 @@
 category: X11
-requires: libgcc1 bash xauth
+requires: bash xauth
 sdesc: "X.Org Remote Start client and daemon"
 ldesc: "X.Org Remote Start client and daemon"
