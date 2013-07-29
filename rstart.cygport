@@ -1,0 +1,11 @@
+inherit xorg
+
+NAME="rstart"
+VERSION=1.0.5
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="X Remote Start client and daemon"
+DESCRIPTION="Rstart is a simple implementation of a Remote Start client and
+helper as defined in 'A Flexible Remote Execution Protocol Based on rsh'.
+It uses rsh as its underlying remote execution mechanism."
+REQUIRES="rsh xauth"
